@@ -1,0 +1,68 @@
+.background_image {
+  position: relative;
+}
+.header_text {
+  position: absolute;
+  width: 29.1%;
+  left: 11.8%;
+}
+#hover_title {
+  position: absolute;
+  width: 29.1%;
+  left: 11.8%;
+}
+.nav_hamburger {
+  position: absolute;
+  width: 5%;
+  left: 83%;
+}
+#hover_nav {
+  position: absolute;
+  width: 5%;
+  left: 83%;
+}
+
+@media screen and (max-width: 600px) {
+  .header_text {
+    top: 80px;
+  }
+  #hover_title {
+    top: 80px;
+  }
+  .nav_hamburger {
+    top: 80px;
+  }
+  #hover_nav {
+    top: 80px;
+  }
+}
+
+@media (max-width: 915px) and (min-width: 600.1px) {
+  .header_text {
+    top: 110px;
+  }
+  #hover_title {
+    top: 110px;
+  }
+  .nav_hamburger {
+    top: 110px;
+  }
+  #hover_nav {
+    top: 110px;
+  }
+}
+
+@media (min-width: 915.1px) {
+  .header_text {
+    top: 163px;
+  }
+  #hover_title {
+    top: 163px;
+  }
+  .nav_hamburger {
+    top: 163px;
+  }
+  #hover_nav {
+    top: 163px;
+  }
+}
