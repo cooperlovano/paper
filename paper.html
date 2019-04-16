@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paper Website</title>
+    <script type="text/javascript" src="paper.js"></script>
+    <link rel="stylesheet" type="text/css" href="paper.css" />
+  </head>
+
+  <body>
+    <!––Main image root-->
+    <div class="background_img" id="root">
+      <!––Attach main background image-->
+      <img
+        src="./img/scan_main_topless.jpg"
+        alt=""
+        width="100%"
+        height="100%"
+      />
+      <!––hovering over TITLE-->
+      <div
+        class="node1"
+        id="title_node"
+        onmouseenter="hoverTitle(this)"
+        onmouseleave="clearHoverTitle(this)"
+      >
+        <!––Non-hovered image element (TITLE)-->
+        <img class="header_text" src="./img/TitleIsolated.png" alt="" />
+      </div>
+
+      <!––SECOND HOVER ELEMENT-->
+      <!––JS logic for hovering over the hamburger nav element, attached to the div-->
+      <div
+        class="node2"
+        id="nav_node"
+        onmouseenter="hoverNav(this)"
+        onmouseleave="clearHoverNav(this)"
+        onclick="clickedNav(this)"
+      >
+        <!––Non-hovered image element (NAV HAMBURGER)-->
+        <img class="nav_hamburger" src="./img/nav_hamburger.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
